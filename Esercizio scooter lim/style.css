@@ -1,0 +1,75 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.blackbox{
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  margin: 2% 15% 10%;
+  padding: 6%;
+}
+
+header{
+  text-align: center;
+  color: rgb(0, 221, 0);
+}
+
+#Logo-img {
+  height: 115px;
+}
+
+.Title{
+  margin: 0;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+nav{
+  background-color: rgb(0, 221, 0);
+  height: 60px;
+  text-align: center;
+}
+button{
+  margin-top: 15px;
+}
+section{
+  margin-top: 40px;
+  color: white;
+}
+
+section span{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+section h4{
+  margin: 5px;
+  font-weight: lighter;
+}
+.arrow::before {
+  content: "\21A6";
+}
+
+/* Charge Bars */
+
+section :last-child{
+  border-radius: 5px;
+  height: 40px;
+}
+
+.low-chargebar{
+  background-color: rgb(190, 65, 65);
+  margin-right: 80%;
+}
+
+.full-chargebar{
+  background-color: rgb(30, 195, 30);
+  margin-right: 35%;
+}
+
+.mid-chargebar{
+  background-color: rgb(245, 180, 83);
+  margin-right: 65%;
+}
